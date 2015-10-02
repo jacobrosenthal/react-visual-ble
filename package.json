@@ -1,0 +1,28 @@
+{
+  "name": "react-visual-ble",
+  "version": "0.0.0",
+  "description": "",
+  "main": "''",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "dev": "webpack-dev-server --progress --profile --colors --hot",
+    "ws": "DEBUG=slave node ./node_modules/noble/ws-slave.js"
+  },
+  "author": "Jacob Rosenthal",
+  "license": "MIT",
+  "dependencies": {
+    "eddystone-beacon-scanner": "^3.0.0",
+    "noble": "^1.1.0",
+    "react": "^0.13.3",
+    "wimoto": "0.0.0",
+    "ws": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "json-loader": "^0.5.2",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
